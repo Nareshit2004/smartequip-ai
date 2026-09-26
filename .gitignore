@@ -1,0 +1,35 @@
+# Python Virtual Environments
+backend/venv/
+venv/
+env/
+.env
+
+# Node Dependencies & Build Output
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# MLflow Experiment Tracking Runs & DB
+backend/mlruns/
+mlruns/
+backend/mlflow.db
+
+# Local Runtime SQLite Database (Telemetry logs)
+backend/*.db
+backend/*.sqlite*
+*.db
+*.db-journal
+
+# Logs & Temporary OS Files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
